@@ -204,7 +204,6 @@
  */
 package com.alibaba.weex.commons.adapter;
 
-import android.graphics.Color;
 import android.graphics.drawable.Animatable;
 import android.net.Uri;
 import android.support.annotation.Nullable;
@@ -267,9 +266,7 @@ public class FrescoImageAdapter implements IWXImgLoaderAdapter {
 
                 Uri uri = Uri.parse(temp);
 
-                ImageDecodeOptions decodeOptions = ImageDecodeOptions.newBuilder()
-                        .setBackgroundColor(Color.GREEN)
-                        .build();
+                ImageDecodeOptions decodeOptions = ImageDecodeOptions.newBuilder().build();
 
                 ImageRequest request = ImageRequestBuilder
                         .newBuilderWithSource(uri)
