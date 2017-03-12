@@ -68,10 +68,10 @@ dependencies {
     compile project(':weexplugin')
     compile 'com.taobao.android:weex_sdk:0.9.5'
     compile 'com.alibaba:fastjson:1.1.46.android'
-    compile 'com.android.support:support-v4:25.1.0'
-    compile 'com.android.support:appcompat-v7:25.1.0'
-    compile 'com.android.support:design:25.1.0'
-    compile 'com.android.support:support-annotations:25.1.0'
+    compile 'com.android.support:support-v4:25.2.0'
+    compile 'com.android.support:appcompat-v7:25.2.0'
+    compile 'com.android.support:design:25.2.0'
+    compile 'com.android.support:support-annotations:25.2.0'
     compile 'com.journeyapps:zxing-android-embedded:3.4.0'
 //    PLUGIN GRADLE EXTENSIONS START
 //    PLUGIN GRADLE EXTENSIONS END
